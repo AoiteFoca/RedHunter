@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header1';
 import Footer from '../components/Footer';
 import LoginForm from '../components/LoginForm';
-import styles from './LoginPage.module.css';
+import styles from '../../assets/style/LoginPage.module.css';
 
 const LoginPage: React.FC = () => {
   return (

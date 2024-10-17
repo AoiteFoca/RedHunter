@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Header.module.css';
+import styles from '../../assets/style/Header.module.css';
 
 const Header1: React.FC = () => {
   const navItems = [
