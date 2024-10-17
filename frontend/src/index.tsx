@@ -5,6 +5,7 @@ import './assets/style/index.css';
 import App from './pages/App';
 import Teste from './pages/Teste';
 import reportWebVitals from './services/reportWebVitals.js';
+import Login from './pages/Login';
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <Routes>
         <Route path="/" element={<App />}>
           <Route index path='/teste' element={<Teste />} />
+          <Route index path='/login' element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>

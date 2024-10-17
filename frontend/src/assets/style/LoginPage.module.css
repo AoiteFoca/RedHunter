@@ -1,0 +1,40 @@
+.loginPage {
+    background: var(--BG, #fff);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-grow: 1;
+    padding: 59px 0;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .sideImage {
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(242, 224, 191, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 135px 80px;
+    flex: 1;
+  }
+  
+  .decorativeImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 991px) {
+    .mainContent {
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+  
+    .sideImage {
+      padding: 100px 20px;
+    }
+  }
