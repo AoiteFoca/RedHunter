@@ -3,16 +3,17 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './assets/style/index.css';
 import App from './pages/App';
-import Teste from './pages/Teste';
+import Contact from './pages/contact';
+import About from './pages/about';
 import reportWebVitals from './services/reportWebVitals.js';
 
 export default function Index() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
-          <Route index path='/teste' element={<Teste />} />
-        </Route>
+        <Route path="/" element={<App />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/about' element={<About />} />
       </Routes>
     </BrowserRouter>
   );
