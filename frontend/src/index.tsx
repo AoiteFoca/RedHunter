@@ -6,6 +6,7 @@ import App from './pages/App';
 import Contact from './pages/contact';
 import About from './pages/about';
 import reportWebVitals from './services/reportWebVitals.js';
+import LoginPage from './pages/LoginPage';
 
 export default function Index() {
   return (

@@ -1,0 +1,73 @@
+.loginFormSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .formTitle {
+    color: var(--Preto, #362e26);
+    font: 500 36px/1 Inter, sans-serif;
+    letter-spacing: 1.44px;
+  }
+  
+  .formDescription {
+    color: var(--Preto, #362e26);
+    font: 400 16px Poppins, sans-serif;
+    margin-top: 24px;
+  }
+  
+  .loginForm {
+    margin-top: 48px;
+  }
+  
+  .inputGroup {
+    margin-bottom: 40px;
+  }
+  
+  .inputLabel {
+    color: var(--Preto, #362e26);
+    opacity: 0.4;
+    font: 400 16px Poppins, sans-serif;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formInput {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(54, 46, 38, 1);
+    padding: 8px 0;
+    font: 400 16px Poppins, sans-serif;
+  }
+  
+  .formActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .submitButton {
+    background-color: rgba(191, 13, 3, 1);
+    color: var(--Text, #fafafa);
+    font: 500 16px Poppins, sans-serif;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .forgotPassword {
+    color: var(--Vermelho, #bf0d03);
+    font: 400 16px Poppins, sans-serif;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 991px) {
+    .loginFormSection {
+      padding: 40px 20px;
+    }
+  }
