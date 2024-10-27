@@ -1,40 +1,41 @@
 .footer {
     background-color: rgba(54, 46, 38, 1);
     color: var(--Creme, #f2e0bf);
-    padding: 67px 70px;
+    padding: 2.5rem 2.5rem;
   }
   
   .footerContent {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 2rem;
   }
   
   .subscribeSection {
-    flex: 1 1 300px;
+    flex: 1 1 15rem;
   }
   
   .footerLogo {
     font: 700 24px/1 Inter, sans-serif;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.1rem;
   }
   
   .subscribeTitle {
     font: 500 20px/1.4 Poppins, sans-serif;
-    margin-top: 24px;
+    margin-top: 1rem;
   }
   
   .subscribeText {
     font: 400 16px Poppins, sans-serif;
-    margin-top: 24px;
+    margin-top: 1rem;
   }
   
   .subscribeForm {
     display: flex;
-    margin-top: 16px;
+    margin-top: 1rem;
     border: 2px solid rgba(242, 224, 191, 1);
     border-radius: 4px;
+    max-width: 20rem;
   }
   
   .subscribeInput {
@@ -54,12 +55,12 @@
   }
   
   .sendIcon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   
   .footerSection {
-    flex: 1 1 200px;
+    flex: 0.9 0.9 5rem;
   }
   
   .sectionTitle {
@@ -74,21 +75,21 @@
   
   .sectionItem {
     font: 400 16px Poppins, sans-serif;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
   
   .socialSection {
-    flex: 1 1 200px;
+    flex: 1 1 0.2rem;
   }
   
   .socialTitle {
     font: 500 20px/1.4 Poppins, sans-serif;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
   
   .socialIcons {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
   }
   
   .socialLink {
@@ -96,8 +97,8 @@
   }
   
   .socialIcon {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   
   @media (max-width: 991px) {

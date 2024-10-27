@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../assets/style/LoginForm.module.css';
+import styles from '../assets/style/LoginForm.module.css';
 
 const LoginForm: React.FC = () => {
   return (

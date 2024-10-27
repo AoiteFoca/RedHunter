@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../assets/style/Footer.module.css';
+import styles from './Footer.module.css';
 
 const Footer: React.FC = () => {
   const footerSections = [
@@ -36,7 +36,6 @@ const Footer: React.FC = () => {
           <h3 className={styles.subscribeTitle}>Inscreva-se</h3>
           <p className={styles.subscribeText}>Encontre a sua melhor versão</p>
           <form className={styles.subscribeForm}>
-            <label htmlFor="emailSubscribe" className="visually-hidden">Digite seu email</label>
             <input
               type="email"
               id="emailSubscribe"

@@ -15,6 +15,7 @@ export default function Index() {
         <Route path="/" element={<App />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
+        <Route path='/login' element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );
